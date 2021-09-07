@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Homework</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #1964d6;
+        font-family: helvetica, Arial, Helvetica, sans-serif;
+        margin: 10px auto 10px auto;
+        font-size: 34px;
+        line-height: 48px;
+      }
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      li {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+        transition: all 200ms ease-in-out;
+      }
+      button {
+        border-radius: 30px;
+        background: #1a64d6;
+        color: white;
+        margin: 20px;
+        padding: 18px 24px;
+        font-size: 16px;
+        transition: all 200ms ease-in-out;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        cursor: pointer;
+        border: 1px solid #1a64d6;
+      }
+      button:hover {
+        background: #ffffff;
+        color: #1a64d6;
+      }
+      p {
+        font-family: monospace;
+        color: #4d4d4d;
+        font-size: 18px;
+      }
+      .today-degree {
+        color: black;
+      }
+      .Tokyo-low-degree {
+        font-weight: normal;
+      }
+      .high-degree {
+        font-weight: bold;
+        color: #4e4c48;
+        font-size: 18px;
+        font-family: monospace;
+      }
+      .date {
+        font-weight: bolder;
+        margin: 15px auto 10px auto;
+        font-size: 1.17em;
+      }
+      .low-degree {
+        color: #6b6964;
+        font-family: monospace;
+        font-weight: lighter;
+        font-size: 18px;
+        text-align: center;
+        margin: 20px auto 30px auto;
+      }
+      .date-block {
+        border-radius: 10px;
+      }
+      .date-block:hover {
+        background: #fffbef;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <br />
+      Currently 21° in Tokyo
+      <div class="today-degree">
+        <span class="Tokyo-low-degree">13° /</span> 23°
+      </div>
+    </h1>
+    <ul>
+      <li class="date-block">
+        <h3 class="date">🌧Tomorrow</h3>
+        <p class="low-degree">10° / <span class="high-degree">22°</span></p>
+      </li>
+      <li class="date-block">
+        <h3 class="date">⛅️Saturday</h3>
+        <p class="low-degree">15° / <span class="high-degree">17°</span></p>
+      </li>
+      <li class="date-block">
+        <h3 class="date">☀️Sunday</h3>
+        <p class="low-degree">25° / <span class="high-degree">28°</span></p>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p>Coded by Brittany Hernandez</p>
+  </body>
+</html>
